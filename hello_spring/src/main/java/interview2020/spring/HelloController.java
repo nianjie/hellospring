@@ -15,7 +15,7 @@ public class HelloController {
 
     @RequestMapping("/")
     String hello() {
-        return "Hello Spring!";
+        return "Hello Spring is coming!";
     }
 
     @Data
