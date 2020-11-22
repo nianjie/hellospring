@@ -15,14 +15,20 @@ public class HelloController {
 
     @RequestMapping("/")
     String hello() {
-        return "Hello World!";
+        return "Hello Spring!";
     }
 
     @Data
     static class Result {
-        private final int left;
-        private final int right;
-        private final long answer;
+        public final int left;
+        public final int right;
+        public long answer;
+
+        public Result(int left, int right, long answer) {
+            this.left = left;
+            this.right = right;
+            this.answer = answer;
+        }
     }
 
     // SQL sample
