@@ -6,7 +6,6 @@
       "HTML5",
       "scalpel"
     ],
-    "image": "heroku/java",
     "env": {
       },
     "environments": {
