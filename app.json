@@ -1,0 +1,19 @@
+{
+    "name": "hello spring world",
+    "description": "This app is a spring web app.",
+    "keywords": [
+      "spring",
+      "HTML5",
+      "scalpel"
+    ],
+    "env": {
+      },
+    "image": "heroku/java",
+    "environments": {
+      "test": {
+        "scripts": {
+          "test": ""
+        }
+      }
+    }
+  }
