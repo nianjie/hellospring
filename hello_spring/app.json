@@ -1,0 +1,27 @@
+{
+    "name": "hello spring world",
+    "description": "This app is a spring web app.",
+    "keywords": [
+      "spring",
+      "HTML5",
+      "scalpel"
+    ],
+    "formation": {
+      "web": {
+        "quantity": 1,
+        "size": "standard-1x"
+      }
+    },
+    "buildpacks": [
+      {
+        "url": "https://github.com/heroku/heroku-buildpack-java.git"
+      }
+    ],
+    "environments": {
+      "test": {
+        "scripts": {
+          "test": "bundle exec rake test"
+        }
+      }
+    }
+  }
