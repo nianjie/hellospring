@@ -7,14 +7,6 @@
       "scalpel"
     ],
     "env": {
-        "PORT": {
-          "description": "port number.",
-          "value": "80"
-        },
-        "WEB_CONCURRENCY": {
-          "description": "The number of processes to run.",
-          "value": "5"
-        }
       },
     "environments": {
       "test": {
