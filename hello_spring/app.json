@@ -6,21 +6,20 @@
       "HTML5",
       "scalpel"
     ],
-    "formation": {
-      "web": {
-        "quantity": 1,
-        "size": "standard-1x"
-      }
-    },
-    "buildpacks": [
-      {
-        "url": "https://github.com/heroku/heroku-buildpack-java.git"
-      }
-    ],
+    "env": {
+        "PORT": {
+          "description": "port number.",
+          "value": "80"
+        },
+        "WEB_CONCURRENCY": {
+          "description": "The number of processes to run.",
+          "value": "5"
+        }
+      },
     "environments": {
       "test": {
         "scripts": {
-          "test": "bundle exec rake test"
+          "test": ""
         }
       }
     }
